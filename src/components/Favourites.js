@@ -15,7 +15,7 @@ export const Favourites = () => {
             <div className="container">
                 <div className="header">
                     <h1>My Favourite Movies</h1>
-                    <span className="count-pill">You have {favourites.length} Favourite Movies</span>
+                    <span className="count-pill">You have {favourites.length} </span>
                 </div>
                 {favourites.length > 0 ? (
                     <StyledMovieGrid>

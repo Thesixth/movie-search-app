@@ -8,7 +8,6 @@ export const StyledMovieThumbnail = styled.div`
     transition: all 0.3s;
     object-fit: cover;
     border-radius: 20px;
-
     :hover {
       opacity: 0.8;
     }

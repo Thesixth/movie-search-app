@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { StyledMovieThumbnail } from './styles/StyledMovieThumbnail';
 
 
-const MovieThumbnail = ({ image, title, movieId, clickable }) => (
+const MovieThumbnail = ({ image, movieId, clickable }) => (
 <StyledMovieThumbnail>
     {
         clickable ? (

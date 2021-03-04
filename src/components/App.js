@@ -6,9 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import IndividualMovie from './IndividualMovie';
 import Favourites from './Favourites'
 import About from './About';
-import TopRated from './TopRated';
-import NowPlaying from './NowPlaying';
-import UpComing from './UpComing'; 
 
 const App = () => 
 <div>
@@ -21,7 +18,6 @@ const App = () =>
                 <Route path="/favourites" component={Favourites} />
                 <Route path="/about" component={About}  />
                 <Route exact path="/:movieId" component={IndividualMovie} />
-                
             </Switch>
         </Router>
         </div>

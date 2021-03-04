@@ -41,8 +41,8 @@ export const StyledHeader = styled.div`
 `;
 
 export const StyledRMDBLogo = styled.img`
-  height: 90px;
-  width: 90px;
+  height: 15rem;
+  width: 15rem;
   margin: 0 auto;
   display: block;
   padding-top: 10;
